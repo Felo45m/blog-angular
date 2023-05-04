@@ -10,28 +10,24 @@ elements, `div class="articles__main">` and `div class="articles__others">`, whi
 organize the articles into a main article and other articles. -->
 <div class="container__articles">
   <div class="articles__main">
-    <app-big-card></app-big-card>
+    <app-big-card
+      photoCover="https://www.alura.com.br/artigos/assets/como-comecar-com-angular/como-comecar-com-angular.png"
+      cardTitle="Meu aprendizado em Angular"
+      cardDescription="Saiba mais sobre...  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    >
+    </app-big-card>
   </div>
 
   <div class="articles__others">
 
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
+    <app-small-card
+      photoCover="https://img-cdn.hltv.org/gallerypicture/oe-Wqa14F0PYPHThs8Lg6I.jpg?ixlib=java-2.1.0&w=1200&s=de3178c299bac2dc304c6e5f7e8a1dd1"
+      cardTitle="Tangas do cs"
 
-  </div>
-</div>
-
-<hr>
-
-<div class="container__articles">
-  <div class="articles__main">
-    <app-big-card></app-big-card>
-  </div>
-
-  <div class="articles__others">
-
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
+    >
+    </app-small-card>
 
   </div>
 </div>
